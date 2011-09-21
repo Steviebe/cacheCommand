@@ -1,0 +1,9 @@
+# Location where cache dumps will be kept
+CACHE_DIR /home/steve/Scripts/.cacheCommand
+
+<Error_Regex>
+#   command (switch ' ' with _)   regex
+    gcalcli_--nc_agenda           "^Error: "
+
+</Error_Regex>
+
