@@ -1,0 +1,20 @@
+cacheCommand.pl
+--------------------------------------------------------------------------------
+This is a simple program that will cache the output of a program.  If the output
+matches the error regex, the cache is displayed insted of the actual program
+output.
+
+
+Setup
+--------------------------------------------------------------------------------
+Be sure to put .cacheCommandrc in your home directory
+
+
+Prerequisites
+--------------------------------------------------------------------------------
+File::HomeDir and Config::General are requirements.  They can be installed
+through cpan.
+
+$ sudo cpan
+cpan> install File::HomeDir
+cpan> install Config::General
